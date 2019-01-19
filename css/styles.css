@@ -60,16 +60,17 @@ html {
   font-size: 16px;
 }
 
-/*.boxy label, .boxy label:before, .boxy label:after,
+.boxy label, .boxy label:before, .boxy label:after,
 .boxy input,
 .boxy input:before,
 .boxy input:after {
   content: "";
   position: absolute;
   -webkit-perspective: 200px;
-          perspective: 200px;
+  perspective: 200px;
 }
-.boxy label:before, .boxy label:after,
+
+/*.boxy label:before, .boxy label:after,
 .boxy input:before,
 .boxy input:after {
   box-shadow: 0 0 0.5px 0px #4b3620;
