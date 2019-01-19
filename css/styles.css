@@ -173,11 +173,11 @@ html {
   transition-delay: 0.15s;
 }
 
-/*.boxy input:checked + label:before {
+.boxy input:checked+label:before {
   transition-delay: 0s;
 }
 
-.boxy input:checked + label:after {
+/*.boxy input:checked + label:after {
   transition-delay: 0.1s;
 }
 
