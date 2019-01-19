@@ -70,13 +70,14 @@ html {
   perspective: 200px;
 }
 
-/*.boxy label:before, .boxy label:after,
+.boxy label:before, .boxy label:after,
 .boxy input:before,
 .boxy input:after {
   box-shadow: 0 0 0.5px 0px #4b3620;
   transition: all 0.3s ease;
 }
-.boxy label {
+
+/*.boxy label {
   text-indent: 56px;
   white-space: nowrap;
   line-height: 28px;
