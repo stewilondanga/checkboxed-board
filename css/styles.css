@@ -161,11 +161,11 @@ html {
   outline-offset: 2px;
 }
 
-/*.boxy input:focus:checked {
+.boxy input:focus:checked {
   outline-offset: 5px;
 }
 
-.boxy label:before {
+/*.boxy label:before {
   transition-delay: 0.1s;
 }
 
