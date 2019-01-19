@@ -94,14 +94,15 @@ html {
   background: linear-gradient(270deg, #a57746, #936a3e);
 }
 
-/*.boxy label:after {
+.boxy label:after {
   right: 0;
   left: auto;
   -webkit-transform-origin: right;
-          transform-origin: right;
+  transform-origin: right;
   background: linear-gradient(90deg, #a57746, #936a3e);
 }
-.boxy input:before,
+
+/*.boxy input:before,
 .boxy input:after {
   width: 100%;
   height: 50%;
