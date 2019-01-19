@@ -7,6 +7,6 @@ var navigate = (function() {
   });
 })();
 
-/*setTimeout(function() {
+setTimeout(function() {
   document.getElementsByTagName("input")[0].click();
 }, 1000);
