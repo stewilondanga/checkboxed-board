@@ -130,17 +130,19 @@ html {
   background: linear-gradient(165deg, #a57746, #6f502f);
 }
 
-.boxy input:checked + label:before {
+.boxy input:checked+label:before {
   -webkit-transform: rotate3d(0, 1, 0, -125deg);
-          transform: rotate3d(0, 1, 0, -125deg);
+  transform: rotate3d(0, 1, 0, -125deg);
   background: linear-gradient(270deg, #a57746, #6f502f);
 }
-/*.boxy input:checked + label:after {
+
+.boxy input:checked+label:after {
   -webkit-transform: rotate3d(0, 1, 0, 125deg);
-          transform: rotate3d(0, 1, 0, 125deg);
+  transform: rotate3d(0, 1, 0, 125deg);
   background: linear-gradient(90deg, #a57746, #6f502f);
 }
-.boxy:hover input:not(:checked) + label:before,
+
+/*.boxy:hover input:not(:checked) + label:before,
 .boxy input:focus:not(:checked) + label:before {
   -webkit-transform: rotate3d(0, 1, 0, -40deg);
           transform: rotate3d(0, 1, 0, -40deg);
