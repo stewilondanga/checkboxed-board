@@ -165,11 +165,11 @@ html {
   outline-offset: 5px;
 }
 
-/*.boxy label:before {
+.boxy label:before {
   transition-delay: 0.1s;
 }
 
-.boxy label:after {
+/*.boxy label:after {
   transition-delay: 0.15s;
 }
 
