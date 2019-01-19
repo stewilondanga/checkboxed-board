@@ -190,10 +190,11 @@ html {
 }
 
 /* fonts */
-/*h1 {
+h1 {
   margin: 10px 0 40px;
 }
-h1 span {
+
+/*h1 span {
   opacity: 0.7;
   color: #6f502f;
 }
