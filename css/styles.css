@@ -156,11 +156,12 @@ html {
   box-shadow: 0 0 0.5px 0px #4b3620, -3px 0px 2px rgba(0, 0, 0, 0.2);
 }
 
-/*.boxy input:focus {
+.boxy input:focus {
   outline: 1px dotted !important;
   outline-offset: 2px;
 }
-.boxy input:focus:checked {
+
+/*.boxy input:focus:checked {
   outline-offset: 5px;
 }
 
