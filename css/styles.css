@@ -118,12 +118,13 @@ html {
   background: linear-gradient(180deg, #a57746, #936a3e);
 }
 
-/*.boxy input:checked:before {
+.boxy input:checked:before {
   -webkit-transform: rotate3d(1, 0, 0, 125deg);
-          transform: rotate3d(1, 0, 0, 125deg);
+  transform: rotate3d(1, 0, 0, 125deg);
   background: linear-gradient(-20deg, #a57746, #6f502f);
 }
-.boxy input:checked:after {
+
+/*.boxy input:checked:after {
   -webkit-transform: rotate3d(1, 0, 0, -125deg);
           transform: rotate3d(1, 0, 0, -125deg);
   background: linear-gradient(165deg, #a57746, #6f502f);
