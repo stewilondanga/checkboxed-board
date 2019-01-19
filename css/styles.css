@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Gaegu");
+
+body,
+html {
+  color: #4b3620;
+  background: #fbecd4;
+  padding: 10px 30px;
+  font-family: 'gaegu';
+  letter-spacing: -1.5px;
+  font-size: 28px;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -22,15 +33,6 @@
   height: 1.5em;
 }
 
-body,
-html {
-  color: #4b3620;
-  background: #fbecd4;
-  padding: 10px 30px;
-  font-family: 'gaegu';
-  letter-spacing: -1.5px;
-  font-size: 28px;
-}
 
 .boxy,
 .boxy label,
