@@ -83,17 +83,18 @@ html {
   line-height: 28px;
 }
 
-/*.boxy label:before,
+.boxy label:before,
 .boxy label:after {
   width: 50%;
   height: 100%;
   top: 0;
   left: 0;
   -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
   background: linear-gradient(270deg, #a57746, #936a3e);
 }
-.boxy label:after {
+
+/*.boxy label:after {
   right: 0;
   left: auto;
   -webkit-transform-origin: right;
