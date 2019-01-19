@@ -142,13 +142,14 @@ html {
   background: linear-gradient(90deg, #a57746, #6f502f);
 }
 
-/*.boxy:hover input:not(:checked) + label:before,
-.boxy input:focus:not(:checked) + label:before {
+.boxy:hover input:not(:checked)+label:before,
+.boxy input:focus:not(:checked)+label:before {
   -webkit-transform: rotate3d(0, 1, 0, -40deg);
-          transform: rotate3d(0, 1, 0, -40deg);
+  transform: rotate3d(0, 1, 0, -40deg);
   box-shadow: 0 0 0.5px 0px #4b3620, 3px 0px 2px rgba(0, 0, 0, 0.2);
 }
-.boxy:hover input:not(:checked) + label:after,
+
+/*.boxy:hover input:not(:checked) + label:after,
 .boxy input:focus:not(:checked) + label:after {
   -webkit-transform: rotate3d(0, 1, 0, 40deg);
           transform: rotate3d(0, 1, 0, 40deg);
