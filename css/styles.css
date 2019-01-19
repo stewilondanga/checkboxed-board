@@ -48,7 +48,7 @@ html {
   margin-left: 50px;
 }
 
-/*.boxy:before {
+.boxy:before {
   content: "\f00c";
   position: absolute;
   left: 0;
@@ -59,7 +59,8 @@ html {
   font-family: "Font Awesome 5 Free";
   font-size: 16px;
 }
-.boxy label, .boxy label:before, .boxy label:after,
+
+/*.boxy label, .boxy label:before, .boxy label:after,
 .boxy input,
 .boxy input:before,
 .boxy input:after {
