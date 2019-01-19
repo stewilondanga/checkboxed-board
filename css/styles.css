@@ -42,12 +42,13 @@ html {
   user-select: none;
 }
 
-/*.boxy {
+.boxy {
   background: linear-gradient(300deg, #936a3e, #6f502f);
   box-shadow: inset 2px 2px 10px -1px #4b3620;
   margin-left: 50px;
 }
-.boxy:before {
+
+/*.boxy:before {
   content: "\f00c";
   position: absolute;
   left: 0;
